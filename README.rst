@@ -5,6 +5,9 @@ This library looks into in the ``INSTALLED_APPS`` for directories named
 ``editor-site-templates``  and explore their content to export a list of templates for
 CKEditor.
 
+This package is known to be working from Python 2.7 to Python 3.8 and from Django 1.8
+to Django 2.2.
+
 Install
 *******
 
@@ -54,3 +57,16 @@ Sample ``manifest.json``: ::
             "image": "template1-icon.png",
         }
     }
+
+Development
+***********
+
+For a local install for with additional development stack: ::
+
+    make install
+
+And then you can launch the tests: ::
+
+    make tests
+
+See Makefile for every useful actions.
