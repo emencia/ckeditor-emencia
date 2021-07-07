@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/x-rst",
     author='Grégoire ROCHER',
     author_email='support@emencia.com',
-    url='http://pypi.python.org/pypi/ckeditor-emencia',
+    url='https://github.com/emencia/ckeditor-emencia',
     license='GNU Affero General Public License v3',
     packages=find_packages(
         exclude=[
